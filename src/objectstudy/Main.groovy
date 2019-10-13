@@ -5,7 +5,7 @@ import org.apache.tools.ant.taskdefs.Expand
 /**
  * Create by SunnyDay on 2019/10/13
  */
-ExpandoMetaClass.enableGlobally() // 注入的方法或者成员全局可用
+
 
 def person = new Person(name: "Tom",age: 18)
 println("name:${person.name}  age:${person.age}")
